@@ -44,10 +44,9 @@ modules:
     sources:
       - type: git
         url: https://github.com/DarhonSoftware/syncBackup.git
-        tag: v2.0.0
-        commit: 1b4951cc971cedc45061e60c5200ce02f3ae9323
+        tag: v2.0.0-1
+        commit: 37826917e62d701b6fa1a7f2c13df5977c7549d6
       - type: script
         dest-filename: syncbackup.sh
         commands: 
           - syncbackup --ssh-askpass /app/bin/ksshaskpass
-
