@@ -44,8 +44,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/DarhonSoftware/syncBackup.git
-        tag: v2.0.0-3
-        commit: 47072a135a72b51bec6dedf3ecd2c13e793151e2
+        tag: v2.0.0-4
+        commit: 87aaa47cd6e30e2406ff9f68ff76b31a0200bc51
       - type: script
         dest-filename: syncbackup.sh
         commands: 
