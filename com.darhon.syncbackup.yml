@@ -1,6 +1,6 @@
 app-id: com.darhon.syncbackup
 runtime: org.kde.Platform
-runtime-version: '6.6'
+runtime-version: '6.8'
 sdk: org.kde.Sdk
 command: syncbackup.sh
 finish-args:
@@ -30,8 +30,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/KDE/ksshaskpass.git
-        tag: v6.0.4
-        commit: 74acc50ee069bb5a43ba8b4cda45541aa65f4bb6
+        tag: v6.2.3
+        commit:  8f28c1d6728ba2572d7a1da52f905373efaa6218
     cleanup:
       - /share/man
 
@@ -44,8 +44,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/DarhonSoftware/syncBackup.git
-        tag: v2.1.1
-        commit: 6273fb5f234ce27361e044773c2dab35f5c8a745
+        tag: v2.1.2
+        commit: 8865eaa9844877ab2c1992663fbea058a56afb12
       - type: script
         dest-filename: syncbackup.sh
         commands: 
