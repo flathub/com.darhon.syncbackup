@@ -39,10 +39,8 @@ modules:
     buildsystem: cmake-ninja
     config-opts:
       - -DCMAKE_BUILD_TYPE=Release
-    post-install:
-      - install -D syncbackup.sh /app/bin/syncbackup.sh
     sources:
       - type: git
         url: https://github.com/DarhonSoftware/syncBackup.git
         tag: v2.1.3
-        commit: e32f2605f26c64b4318c3b6de604cf1b53199ffb
+        commit: 3c5faddcc55967e9a9873e1318dc17b696b48730
