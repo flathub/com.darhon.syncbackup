@@ -60,4 +60,4 @@ modules:
       - type: git
         url: https://github.com/DarhonSoftware/syncBackup.git
         tag: v2.1.5
-        commit: 6b5a29070295af3ac7b6b6ba556ee42b1c90b9eb
+        commit: 2d346d8e3e4335feeae72217d37812b40f3880b0
